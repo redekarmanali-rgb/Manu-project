@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS User Interaction</title>
+ <style>
+ /* Hover */
+ .btn:hover { background-color: darkblue; color: white; }
+ /* Active */
+ .btn:active { transform: scale(0.95); }
+ /* Focus */
+ input:focus { border-color: blue; outline: 2px solid lightblue; }
+ /* Valid / Invalid */
+ input:valid { border: 2px solid green; }
+ input:invalid { border: 2px solid red; }
+ </style>
+</head>
+<body>
+ <h1>CSS User Interaction</h1>
+ <button class="btn">Click / Hover Me</button>
+ <br><br>
+ <form>
+ <input type="email" placeholder="Enter your email" required>
+ <br><br>
+ <input type="text" placeholder="Enter your name">
+ <br><br>
+ <button type="submit">Submit</button>
+ </form>
+</body>
+</html>
